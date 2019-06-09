@@ -1,0 +1,87 @@
+   onclick="openNav()" goes on image
+
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">Games</a>
+    <a href="#">Music</a>
+    <a href="#">Printers/ TVs</a>
+    <a href="#">Phones</a>
+    <a href="#">Cameras</a>
+    <a href="#">Computers</a>
+    <a href="#">About</a>
+    <a href="#">Phones</a>
+    <a href="#">Contact</a>
+  </div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #C0C0C0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: white;
+  background-color: pink;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+/* end nav bar */
+<nav>
+      <div class="name">MetalMoon</div>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">About</a></li>
+    </nav>
+
+    nav {
+  list-style: none;
+  float: right;
+}
+nav li {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: lightblue;
+  cursor: pointer;
+}
+nav li a {
+  color: green;
+  text-decoration: none;
+}
+nav li:hover {
+  background-color: darkblue;
+}

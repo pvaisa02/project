@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 1500px;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  position: fixed;
+}
+@font-face {
+  font-family: bigfont;
+  src: url(font.ttf);
+}
+header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  z-index: 98;
+}
+.name {
+  font-family: bigfont;
+  right: 5px;
+  top: 0;
+  line-height: 100px;
+  font-size: 50px;
+  color: #C0C0C0;
+  position: fixed;
+}
+.name a {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+.bigbox {
+  right: 7px;
+  position: fixed;
+  width: 50px;
+  top: 200px;
+  z-index: 99;
+}
+#C1 {
+  width: 50px;
+  height: 50px;
+  background: url(images/Cart.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-style: solid;
+}
+#C2 {
+  width: 50px;
+  height: 50px;
+  background: url(images/Login.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-style: solid;
+}
+#C3 {
+  width: 50px;
+  height: 50px;
+  background: url(images/facebook.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-style: solid;
+}
+#C4 {
+  width: 50px;
+  height: 50px;
+  background: url(images/twitter.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-style: solid;
+}
+#C5 {
+  width: 50px;
+  height: 50px;
+  background: url(images/insta.png);
+  border-radius: 50%;
+  border-style: solid;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.imgblock {
+  position: relative;
+  width: 100%;
+  background-color: lightgreen;
+  height: 100%;
+}
+.img1 {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background: url(images/PS4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+  /* PS4 */
+}
+.img2 {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background: url(images/PC2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+  /*Avant guarde Custom gaming PC */
+}
+.img3 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background: url(images/Macbook.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+  /*macbook */
+}
+.img4 {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background: url(images/iphonex.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%; 
+}
+.img5 {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background: url(images/ipad.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%; 
+  /* Brand new White Touch screen glass digitizer LCD for the 2nd Generation iPad Air 2 assembly */
+}
+.img6 {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background:url(images/xbox.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%; 
+}
+.img7 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background-color: red;
+  border-radius: 50%; 
+}
+.img8 {
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background: url(images/xboxforever.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%; 
+  /* xbox black panther edition */
+}
+.img9 {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background-color: red;
+  border-radius: 50%; 
+}
+.img10 {
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background-color: red;
+  border-radius: 50%; 
+}
+.img11 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background-color: red;
+  border-radius: 50%; 
+}
+.img12 {
+  position: absolute;
+  top: 70%;
+  left: 75%;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background-color: red;
+  border-radius: 50%; 
+}
+.img41 {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background-color: red;
+  border-radius: 50%; 
+}
+.img41 {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+  width: 20%;
+  border-style: solid;
+  height: 250px;
+  background-color: red;
+  border-radius: 50%; 
+}
+footer {
+  width: 100%;
+  position: relative;
+  height: 15%;
+  background-color: blue;
+  color: white;
+  font-family: Segoe UI;
+  font-size: 25px;
+}
+.LeanR {
+  float: right;
+  border-style: 
+}
