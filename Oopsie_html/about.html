@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="About.css">
+  <title>About</title>
+</head>
+<body>
+  <header>
+    <a href="#"><img src="images/logo1.png" class="logo"></a>
+    <div id="name"><a href="#">MetalMoon</a></div>
+  </header>
+  <div class="bigbox">
+    <a href="#"><div id="C1"></div></a>
+    <a href="#"><div id="C2"></div></a>
+    <a href="#"><div id="C3"></div></a>
+    <a href="#"><div id="C4"></div></a>
+    <a href="#"><div id="C5"></div></a>
+  </div>
+  <div class="box1">
+    <img src="images/logo.png" class="imgbox">
+    <div class="overlay">Jas Singh</div>
+    <p id="t1">Jah Singh is our <strong>Global Marketing Manager.</strong><i> Kaiwhakahaere Hokohoko Katoa.</i></p>
+      <br><br><p>As a Global Marketing Manager you are in charge of taking care of the advancement of your organization and its items or administrations around the globe. You may work with other promoting experts to create materials, direct statistical surveying and create methodologies to improve organization deals.</p>
+  </div>
+  <div class="box2">
+    <img src="images/logo.png" class="imgbox">
+    <div class="overlay">Millie Trautvetter</div>
+    <p id="t1">Millie Trautvetter is our <strong>Communications manager</strong> <i>kaiwhakahaere whakapā.</i><p>
+      <br><br><p>Communication Managers are in charge of overseeing all internal and external communications for a company, ensuring its message is consistent and engaging. Also known as a Communications Director, their main duties include preparing detailed media reports, press releases, and marketing materials.</p>
+  </div>
+  <div class="box3">
+    <img src="images/logo.png" class="imgbox">
+    <div class="overlay">Patrick Holley</div>
+    <p id="t1">Patrick Holley is our <strong>Digital marketing specialist.</strong> <i>Kaihokohoko Toi Mamati.</i></p>
+      <br><br><p>The Digital Marketing Specialist's role is to design, create, and deliver marketing programs to support expansion and growth of the company services and products. This role requires an in depth knowledge of TekSavvy products and market goals</p>
+  </div>
+  <div class="box4">
+    <img src="images/logo.png" class="imgbox">
+    <div class="overlay">Paul Vaisau</div>
+    <p id="t1">Paul Vaisau is our <strong>Market Research Analyst.</strong> <i>Kaitātari Rangahau Hokohoko.</i></p>
+      <br><br><p>Market research analysts study market conditions to examine potential sales of a product or service. They help companies understand what products people want, who will buy them, and at what price</p>
+  </div>
+  <footer class="footer">FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER </footer>
+  <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("name").style.top = "0";
+  } else {
+    document.getElementById("name").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+<script type="text/javascript">
+  $(window).on('scroll', function(){
+  if ($(window).scrollTop()){
+      $('header').addClass('black');
+    }
+    else
+    {
+      $('header').removeClass('black');
+    }
+  })
+</script>
+</body>
+</html>

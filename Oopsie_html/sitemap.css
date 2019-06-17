@@ -1,0 +1,173 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  position: fixed;
+}
+@font-face {
+  font-family: bigfont;
+  src: url(font.ttf);
+}
+header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  z-index: 98;
+}
+.name {
+  font-family: bigfont;
+  right: 5px;
+  top: 0;
+  line-height: 100px;
+  font-size: 50px;
+  color: #C0C0C0;
+  position: fixed;
+}
+.name a {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+.bigbox {
+  right: 7px;
+  position: fixed;
+  width: 50px;
+  top: 200px;
+  z-index: 99;
+}
+#C1 {
+  width: 50px;
+  height: 50px;
+  background: url(images/Cart.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #7e0000;
+  background-color: #cacaca;
+}
+#C2 {
+  width: 50px;
+  height: 50px;
+  background: url(images/Login.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #7e0000;
+  background-color: #cacaca;
+}
+#C3 {
+  width: 50px;
+  height: 50px;
+  background: url(images/facebook.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #7e0000;
+  background-color: #cacaca;
+}
+#C4 {
+  width: 50px;
+  height: 50px;
+  background: url(images/twitter.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #7e0000;
+  background-color: #cacaca;
+}
+#C5 {
+  width: 50px;
+  height: 50px;
+  background: url(images/insta.png);
+  border-radius: 50%;
+  border-style: solid;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-color: #7e0000;
+  background-color: #cacaca;
+}
+a #C1:hover {
+  border-color: blue;
+}
+a #C2:hover {
+  border-color: blue;
+}
+a #C3:hover {
+  border-color: blue;
+}
+a #C4:hover {
+  border-color: blue;
+}
+a #C5:hover {
+  border-color: blue;
+}
+.bigboss {
+	width: 50%;
+	height: 450px;
+  background-color: #cacaca;
+	position: relative;
+	left: 5%;
+	top: 125px;
+	bottom: 30%;
+  border-color: #7e0000; 
+  border-style: solid;
+}
+.bigboss nav a:hover {
+	color:#7e0000; 
+}
+.bigboss nav a{
+	color: black;
+	text-decoration: none;
+  font-variant: small-caps;
+}
+.bigboss nav {
+	position: absolute;
+	left: 20px;
+	padding: 30px 30px;
+  font-family: sans-serif;
+}
+.bigboss nav li {
+	font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+.bigboss nav li a {
+	text-decoration: none;
+	color: black;
+  font-variant: small-caps;
+}
+.bigboss nav li a:hover {
+	color: #7e0000; 
+}
+i {
+  font-variant: small-caps;
+  font-size: 15px;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 20%;
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.LeanR {
+  float: right;
+  border-style: 
+}

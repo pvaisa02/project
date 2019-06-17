@@ -1,0 +1,225 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  position: fixed;
+}
+@font-face {
+  font-family: bigfont;
+  src: url(font.ttf);
+}
+header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  z-index: 98;
+}
+#name {
+  font-family: bigfont;
+  right: 5px;
+  top: 0;
+  line-height: 100px;
+  font-size: 50px;
+  color: #C0C0C0;
+  position: fixed;
+  z-index: 99;
+  transition: .3s;
+}
+#name a {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+header.black {
+  background-color: rgba(0,0,0,.5);
+}
+.bigbox {
+  right: 7px;
+  position: fixed;
+  width: 50px;
+  top: 200px;
+  z-index: 99;
+}
+#C1 {
+  width: 50px;
+  height: 50px;
+  background: url(images/Login.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #7e0000;
+  background-color: #cacaca;
+}
+#C2 {
+  width: 50px;
+  height: 50px;
+  background: url(images/Cart.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #7e0000;
+  background-color: #cacaca;
+}
+#C3 {
+  width: 50px;
+  height: 50px;
+  background: url(images/facebook.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #7e0000;
+}
+#C4 {
+  width: 50px;
+  height: 50px;
+  background: url(images/twitter.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #7e0000;
+}
+#C5 {
+  width: 50px;
+  height: 50px;
+  background: url(images/insta.png);
+  border-radius: 50%;
+  border-style: solid;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-color: #7e0000;
+}
+a #C1:hover {
+  border-color: blue;
+}
+a #C2:hover {
+  border-color: blue;
+}
+a #C3:hover {
+  border-color: blue;
+}
+a #C4:hover {
+  border-color: blue;
+}
+a #C5:hover {
+  border-color: blue;
+}
+.box1 {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border-top-style: solid;
+  border-top-color: #7e0000;
+  border-bottom-style: solid;
+  border-bottom-color: #7e0000;
+}
+.box2 {
+  position: relative;
+  top: 150px;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border-top-style: solid;
+  border-top-color: #7e0000;
+  border-bottom-style: solid;
+  border-bottom-color: #7e0000;
+}
+.box3 {
+  position: relative;
+  top: 200px;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border-top-style: solid;
+  border-top-color: #7e0000;
+  border-bottom-style: solid;
+  border-bottom-color: #7e0000;
+}
+.box4 {
+  position: relative;
+  top: 250px;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border-top-style: solid;
+  border-top-color: #7e0000;
+  border-bottom-style: solid;
+  border-bottom-color: #7e0000;
+}
+.imgbox {
+  position: relative;
+  left: 5%;
+  top: 30px;
+  height: 60%;
+  border-style: solid;
+  background-color: pink;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 20px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #C0C0C0; 
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: bigfont;
+}
+.box1:hover .overlay {
+  opacity: 1;
+}
+.box2:hover .overlay {
+  opacity: 1;
+}
+.box3:hover .overlay {
+  opacity: 1;
+}
+.box4:hover .overlay {
+  opacity: 1;
+}
+#t1 {
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 0 5%;
+  margin-right: 5%;
+}
+p strong {
+  text-decoration: underline;
+}
+.footer {
+  position: relative;
+  top: 300px;
+  width: 100%;
+  height: 200px;
+  background-color: grey;
+}
+p {
+   font-family: sans-serif;
+  font-size: 15px;
+  position: absolute;
+  left: 30%;
+  top: 45%;
+  padding: 0 5%;
+  margin-right: 5%;
+}
